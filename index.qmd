@@ -1,9 +1,9 @@
 ---
 title: "Demo lmh format to use as template"
 format:
-  aft-pdf:
+  lmh-pdf:
     keep-tex: false  
-  aft-html: default
+  lmh-html: default
 author:
   - name: Robin Doe
     affiliations:

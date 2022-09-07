@@ -13,7 +13,7 @@ contributes:
         - shortcodes.lua
       knitr:
         opts_chunk:
-          echo: false
+          echo: true
     pdf:
       # define default configuration for the pdf version of your format
       documentclass: lmh

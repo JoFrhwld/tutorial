@@ -1,13 +1,13 @@
 ---
-title: "Demo aft format to use as template"
+title: "Demo lmh format to use as template"
 format:
   aft-pdf:
-    keep-tex: true  
+    keep-tex: false  
   aft-html: default
 author:
-  - name: John Doe
+  - name: Robin Doe
     affiliations:
-      - name: Dummy org
+      - name: org
         department: Cool Dep
         address: Somewhere
         city: Magic city

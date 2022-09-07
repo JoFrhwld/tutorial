@@ -16,9 +16,9 @@ contributes:
           echo: false
     pdf:
       # define default configuration for the pdf version of your format
-      documentclass: aft
-      colorlinks: true
-      urlcolor: red
+      documentclass: lmh
+      #colorlinks: true
+      #urlcolor: red
       fig-width: 6.5
       fig-height: 4.5
       # This format use a bst file with natbib
@@ -36,7 +36,7 @@ contributes:
         - "partials/_authors.tex"
       format-resources:
         # Add here the resources required for the PDF rendering
-        - aft.cls
+        - lmh.cls
         - te.bst
     html:
       # define default configuration for the html version of your format
@@ -44,4 +44,4 @@ contributes:
       toc: true
       theme: custom.scss
       # Use a CSL file to style (https://www.zotero.org/styles/)
-      csl: https://www.zotero.org/styles/journal-of-institutional-and-theoretical-economics
+      csl: https://www.zotero.org/styles/glossa
